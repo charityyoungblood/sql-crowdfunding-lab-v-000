@@ -16,21 +16,26 @@ end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
   # break down query little by little until you can create query for the whole thing
-  "SELECT users.name, users.age, SUM(pledges.amount) FROM users JOIN pledges ON users.id = pledges.user_id ORDER BY name"
+  "SELECT users.name, users.age, SUM(pledges.amount) FROM users JOIN pledges ON users.id = pledges.user_id GROUP BY users.name ORDER BY name"
 end
 
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
+  # # break down query little by little until you can create query for the whole thing
 "Write your SQL query Here"
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
+  # break down query little by little until you can create query for the whole thing
 "Write your SQL query Here"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
+  # break down query little by little until you can create query for the whole thing
 "Write your SQL query Here"
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
+  # break down query little by little until you can create query for the whole thingD0ntqu1t#
+  
 "Write your SQL query Here"
 end
